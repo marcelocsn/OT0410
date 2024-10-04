@@ -19,47 +19,38 @@
 body {
   
     height: 100vh;
-
-       
+      
     background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
 
-
     background-size: cover;
-
    
     background-repeat: no-repeat;
 
-   
     background-attachment: fixed;
-
    
     color: white;
 }
 
 
-    .conteudo {
+.conteudo {
      
         height: auto;
-
         color:white;
-    
-          flex-direction: column;
-    
-      
+        flex-direction: column;
         margin: 10%;
-    
-        
         display: flex;
-    
-        
         align-items: center;
         text-align: center;
-      
-        justify-content: space-between;
-    
-        margin-bottom: 20px;
+        justify-content: center;
+        /* margin-bottom: 20px; */
     }
 
+section {
+
+    background: rgb(67, 14, 14);
+    border-radius: 20%;
+    box-shadow: #000000 3px;
+}
 
 .rodape {
     position: fixed;
