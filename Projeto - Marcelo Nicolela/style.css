@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    height: auto;
+    border: solid 2px white;
+    font-size: 26px;
+    padding: 20px;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+
+body {
+  
+    height: 100vh;
+
+       
+    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
+
+
+    background-size: cover;
+
+   
+    background-repeat: no-repeat;
+
+   
+    background-attachment: fixed;
+
+   
+    color: white;
+}
+
+
+    .conteudo {
+     
+        height: auto;
+
+        color:white;
+    
+          flex-direction: column;
+    
+      
+        margin: 10%;
+    
+        
+        display: flex;
+    
+        
+        align-items: center;
+        text-align: center;
+      
+        justify-content: space-between;
+    
+        margin-bottom: 20px;
+    }
+
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+
+.rodape a:hover {
+    color: #FFA500;
+}
+
+
